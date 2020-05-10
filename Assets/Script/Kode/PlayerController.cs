@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public bool jump = false;
     public bool slide = false;
 
+    public GameObject trigger;
     public Animator anim;
+
+    public float score = 0;
+    public Text scoreText;
 
     void Start()
     {
@@ -16,7 +21,21 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(0, 0, 0.1f);
+
+        scoreText.text = score.ToString();
+
+        if (score > 100)
+        {
+            transform.Translate(0, 0, 0.13f);
+        }
+        else if(score >= 200)
+        {
+            transform.Translate(0, 0, 0.19f);
+        }
+        else
+        {
+            transform.Translate(0, 0, 0.1f);
+        }
 
         if (Input.GetKey(KeyCode.Space))
         {
@@ -54,6 +73,21 @@ public class PlayerController : MonoBehaviour
         else if (slide == false)
         {
             anim.SetBool("isSlide", slide);
+        }
+
+        trigger = GameObject.FindGameObjectWithTag("Obstacle");
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "PlayerTrigger")
+        {
+            Destroy(trigger.gameObject);
+        }
+        if(other.gameObject.tag == "Coin")
+        {
+            Destroy(other.gameObject, 0.5f);
+            score += 5f;
         }
     }
 }
