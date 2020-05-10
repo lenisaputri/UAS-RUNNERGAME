@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        //transform.Translate(0, 0, 0.1f);
+        transform.Translate(0, 0, 0.1f);
 
         if (Input.GetKey(KeyCode.Space))
         {
@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         if (jump == true)
         {
             anim.SetBool("isJump", jump);
-            transform.Translate(0, 0.1f, 0.1f);
+            transform.Translate(0, 0f, 0.1f);
         } 
         else if(jump == false)
         {
