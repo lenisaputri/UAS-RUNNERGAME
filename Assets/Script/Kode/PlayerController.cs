@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
         myCollider = GetComponent<CapsuleCollider>();
 
         lastScore = PlayerPrefs.GetFloat("MyScore");
+        Time.timeScale = 1;
     }
 
     void Update()
@@ -48,6 +49,7 @@ public class PlayerController : MonoBehaviour
 
         if (death == true)
         {
+            Time.timeScale = 0;
             gameOverImg.gameObject.SetActive(true);
         }
 
