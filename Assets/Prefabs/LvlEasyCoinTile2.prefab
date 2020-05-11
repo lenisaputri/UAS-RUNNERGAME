@@ -140,7 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goUp: 0
   myAudio: {fileID: 91906404542281453}
-  coinCollection: {fileID: 8300000, guid: 06147ba3833056a49af972661a0824c8, type: 3}
+  coinCollection: {fileID: 8300000, guid: 13bd5adc5d778454592b910ece684f39, type: 3}
 --- !u!82 &91906404542281453
 AudioSource:
   m_ObjectHideFlags: 0
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goUp: 0
   myAudio: {fileID: 2518226117219006710}
-  coinCollection: {fileID: 8300000, guid: 06147ba3833056a49af972661a0824c8, type: 3}
+  coinCollection: {fileID: 8300000, guid: 13bd5adc5d778454592b910ece684f39, type: 3}
 --- !u!82 &2518226117219006710
 AudioSource:
   m_ObjectHideFlags: 0
@@ -456,7 +456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goUp: 0
   myAudio: {fileID: 5712886836195613383}
-  coinCollection: {fileID: 8300000, guid: 06147ba3833056a49af972661a0824c8, type: 3}
+  coinCollection: {fileID: 8300000, guid: 13bd5adc5d778454592b910ece684f39, type: 3}
 --- !u!82 &5712886836195613383
 AudioSource:
   m_ObjectHideFlags: 0
@@ -693,7 +693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goUp: 0
   myAudio: {fileID: 6569688351534583716}
-  coinCollection: {fileID: 8300000, guid: 06147ba3833056a49af972661a0824c8, type: 3}
+  coinCollection: {fileID: 8300000, guid: 13bd5adc5d778454592b910ece684f39, type: 3}
 --- !u!82 &6569688351534583716
 AudioSource:
   m_ObjectHideFlags: 0
@@ -851,7 +851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goUp: 0
   myAudio: {fileID: 1456767901534989587}
-  coinCollection: {fileID: 8300000, guid: 06147ba3833056a49af972661a0824c8, type: 3}
+  coinCollection: {fileID: 8300000, guid: 13bd5adc5d778454592b910ece684f39, type: 3}
 --- !u!82 &1456767901534989587
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1366,7 +1366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goUp: 0
   myAudio: {fileID: 838502507812494313}
-  coinCollection: {fileID: 8300000, guid: 06147ba3833056a49af972661a0824c8, type: 3}
+  coinCollection: {fileID: 8300000, guid: 13bd5adc5d778454592b910ece684f39, type: 3}
 --- !u!82 &838502507812494313
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1524,7 +1524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goUp: 0
   myAudio: {fileID: 4567147724803308725}
-  coinCollection: {fileID: 8300000, guid: 06147ba3833056a49af972661a0824c8, type: 3}
+  coinCollection: {fileID: 8300000, guid: 13bd5adc5d778454592b910ece684f39, type: 3}
 --- !u!82 &4567147724803308725
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1682,7 +1682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goUp: 0
   myAudio: {fileID: 162176016996357855}
-  coinCollection: {fileID: 8300000, guid: 06147ba3833056a49af972661a0824c8, type: 3}
+  coinCollection: {fileID: 8300000, guid: 13bd5adc5d778454592b910ece684f39, type: 3}
 --- !u!82 &162176016996357855
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2156,7 +2156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goUp: 0
   myAudio: {fileID: 3980447206767041016}
-  coinCollection: {fileID: 8300000, guid: 06147ba3833056a49af972661a0824c8, type: 3}
+  coinCollection: {fileID: 8300000, guid: 13bd5adc5d778454592b910ece684f39, type: 3}
 --- !u!82 &3980447206767041016
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2314,7 +2314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goUp: 0
   myAudio: {fileID: 4832821297904702045}
-  coinCollection: {fileID: 8300000, guid: 06147ba3833056a49af972661a0824c8, type: 3}
+  coinCollection: {fileID: 8300000, guid: 13bd5adc5d778454592b910ece684f39, type: 3}
 --- !u!82 &4832821297904702045
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2433,11 +2433,21 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: -0.13881381
       objectReference: {fileID: 0}
+    - target: {fileID: 5842200729082555903, guid: 39cee74f2420f964b988f1526ce1823e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9d494bd3b049eb4b82b084b385b2379, type: 2}
     - target: {fileID: 5842200729313713914, guid: 39cee74f2420f964b988f1526ce1823e,
         type: 3}
       propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 5842200729313713917, guid: 39cee74f2420f964b988f1526ce1823e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e27b4ead39f974a4784b72529283e79d, type: 2}
     - target: {fileID: 5842200729394311996, guid: 39cee74f2420f964b988f1526ce1823e,
         type: 3}
       propertyPath: m_Name
@@ -2503,6 +2513,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 5842200730492143802, guid: 39cee74f2420f964b988f1526ce1823e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6bfcc85303525cc4aa62951328a4bf34, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39cee74f2420f964b988f1526ce1823e, type: 3}
 --- !u!4 &3168621139537022309 stripped
