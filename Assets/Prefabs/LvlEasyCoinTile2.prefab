@@ -2423,6 +2423,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: DeathPoint
       objectReference: {fileID: 0}
+    - target: {fileID: 5842200729082555902, guid: 39cee74f2420f964b988f1526ce1823e,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.3044821
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842200729082555902, guid: 39cee74f2420f964b988f1526ce1823e,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.13881381
+      objectReference: {fileID: 0}
     - target: {fileID: 5842200729313713914, guid: 39cee74f2420f964b988f1526ce1823e,
         type: 3}
       propertyPath: m_TagString
