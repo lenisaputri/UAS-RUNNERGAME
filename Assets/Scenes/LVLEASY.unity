@@ -3701,6 +3701,11 @@ PrefabInstance:
       propertyPath: gameOverImg
       value: 
       objectReference: {fileID: 1359096589}
+    - target: {fileID: 4576484367099288101, guid: 5078f793809b90c45bd55499a6d44fdc,
+        type: 3}
+      propertyPath: death
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5522289860029925558, guid: 5078f793809b90c45bd55499a6d44fdc,
         type: 3}
       propertyPath: m_Name
