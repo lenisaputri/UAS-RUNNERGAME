@@ -92,7 +92,7 @@ public class PlayerController : MonoBehaviour
         if (jump == true)
         {
             anim.SetBool("isJump", jump);
-            transform.Translate(0, 0f, 0.1f);
+            transform.Translate(0, 0.15f, 0.1f);
             
         } 
         else if(jump == false)
@@ -104,7 +104,7 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isSlide", slide);
             transform.Translate(0, 0, 0.1f);
-            myCollider.height = 1f;
+            myCollider.height = 1.8f;
         }
         else if (slide == false)
         {
