@@ -41,11 +41,11 @@ public class PlayerController : MonoBehaviour
 
         if (score > lastScore)
         {
-            bestScoreText.text = "Best Score : " + score.ToString();
+            bestScoreText.text = score.ToString();
         }
         else
         {
-            bestScoreText.text = "Your Score : " + score.ToString();
+            bestScoreText.text = score.ToString();
         }
 
         if (death == true)
