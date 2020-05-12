@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -50,7 +51,7 @@ public class PlayerController : MonoBehaviour
         if (death == true)
         {
             anim.SetTrigger("isDeath");
-            
+
             gameOverImg.gameObject.SetActive(true);
         }
 
@@ -71,46 +72,8 @@ public class PlayerController : MonoBehaviour
             transform.Translate(0, 0, 0.1f);
         }
 
-        if (Input.GetKey(KeyCode.Space))
-        {
-            jump = true;
-        }
-        else
-        {
-            jump = false;
-        }
-
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            slide = true;
-        }
-        else
-        {
-            slide = false;
-        }
-
-        if (jump == true)
-        {
-            anim.SetBool("isJump", jump);
-            transform.Translate(0, 0.15f, 0.1f);
-            
-        } 
-        else if(jump == false)
-        {
-            anim.SetBool("isJump", jump);
-        }
-
-        if (slide == true)
-        {
-            anim.SetBool("isSlide", slide);
-            transform.Translate(0, 0, 0.1f);
-            myCollider.height = 1.8f;
-        }
-        else if (slide == false)
-        {
-            anim.SetBool("isSlide", slide);
-            myCollider.height = 2.05f;
-        }
+        Movement();
+        AnimationState();
 
         trigger = GameObject.FindGameObjectWithTag("Obstacle");
     }
@@ -133,6 +96,53 @@ public class PlayerController : MonoBehaviour
             {
                 PlayerPrefs.SetFloat("MyScore", score);
             }
+        }
+    }
+
+    void AnimationState()
+    {
+        if (jump == true)
+        {
+            anim.SetBool("isJump", jump);
+            transform.Translate(0, 0.15f, 0.1f);
+
+        }
+        else if (jump == false)
+        {
+            anim.SetBool("isJump", jump);
+        }
+
+        if (slide == true)
+        {
+            anim.SetBool("isSlide", slide);
+            transform.Translate(0, 0, 0.1f);
+            myCollider.height = 1.8f;
+        }
+        else if (slide == false)
+        {
+            anim.SetBool("isSlide", slide);
+            myCollider.height = 2.05f;
+        }
+    }
+
+    void Movement()
+    {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            jump = true;
+        }
+        else
+        {
+            jump = false;
+        }
+
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            slide = true;
+        }
+        else
+        {
+            slide = false;
         }
     }
 }
