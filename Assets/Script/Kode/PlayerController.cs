@@ -93,7 +93,7 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isJump", jump);
             transform.Translate(0, 0f, 0.1f);
-            myCollider.height = 0.3f;
+            
         } 
         else if(jump == false)
         {

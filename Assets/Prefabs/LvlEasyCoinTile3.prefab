@@ -963,7 +963,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.3506907
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -2291,27 +2291,27 @@ PrefabInstance:
     - target: {fileID: 8879610924008018176, guid: 7a224a0cc0a09234b9b928ea4b41d18c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.007
+      value: -0.01674
       objectReference: {fileID: 0}
     - target: {fileID: 8879610924008018176, guid: 7a224a0cc0a09234b9b928ea4b41d18c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.39
+      value: 0.584
       objectReference: {fileID: 0}
     - target: {fileID: 8879610924008018176, guid: 7a224a0cc0a09234b9b928ea4b41d18c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.28502524
+      value: 0.15251
       objectReference: {fileID: 0}
     - target: {fileID: 8879610924008018176, guid: 7a224a0cc0a09234b9b928ea4b41d18c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.811076
+      value: 0.9096166
       objectReference: {fileID: 0}
     - target: {fileID: 8879610924008018176, guid: 7a224a0cc0a09234b9b928ea4b41d18c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.014465933
+      value: 0.0029
       objectReference: {fileID: 0}
     - target: {fileID: 8879610924008018177, guid: 7a224a0cc0a09234b9b928ea4b41d18c,
         type: 3}
@@ -2321,17 +2321,22 @@ PrefabInstance:
     - target: {fileID: 8879610924008018179, guid: 7a224a0cc0a09234b9b928ea4b41d18c,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.9999999
+      value: 0.97464746
       objectReference: {fileID: 0}
     - target: {fileID: 8879610924008018179, guid: 7a224a0cc0a09234b9b928ea4b41d18c,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.8383596
+      value: 0.286063
       objectReference: {fileID: 0}
     - target: {fileID: 8879610924008018179, guid: 7a224a0cc0a09234b9b928ea4b41d18c,
         type: 3}
       propertyPath: m_Center.y
-      value: -0.13082029
+      value: 0.28586105
+      objectReference: {fileID: 0}
+    - target: {fileID: 8879610924008018179, guid: 7a224a0cc0a09234b9b928ea4b41d18c,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.012677214
       objectReference: {fileID: 0}
     - target: {fileID: 8879610924047454114, guid: 7a224a0cc0a09234b9b928ea4b41d18c,
         type: 3}
