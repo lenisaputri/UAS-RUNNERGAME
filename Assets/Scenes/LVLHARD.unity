@@ -402,6 +402,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: MenuLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 754229341586037167, guid: 5b7462238f7b7b74fa8b03c59f949904,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1026924992}
+    - target: {fileID: 754229341586037167, guid: 5b7462238f7b7b74fa8b03c59f949904,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PauseControl
+      objectReference: {fileID: 0}
     - target: {fileID: 754229341810354302, guid: 5b7462238f7b7b74fa8b03c59f949904,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -817,7 +827,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Prefabs.Array.data[2]
       value: 
-      objectReference: {fileID: 3168621138662945308, guid: ecc8613ac5cc4f048b15f135a27a0b50,
+      objectReference: {fileID: 3168621138662945308, guid: 4dccab371947dd1478184ce594c1e43f,
         type: 3}
     - target: {fileID: 1571265813129457782, guid: e72e74fb4ca66cf4f9e93c60a8386683,
         type: 3}

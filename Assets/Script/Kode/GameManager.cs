@@ -33,6 +33,6 @@ public class GameManager : MonoBehaviour
 
     public void MenuLevel()
     {
-        Application.LoadLevel(1);
+        Application.LoadLevel(2);
     }
 }
