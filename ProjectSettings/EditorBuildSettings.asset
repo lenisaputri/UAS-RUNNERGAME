@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LVLHARD.unity
     guid: 69f5df11bd89578429af3e7ccdb938da
+  - enabled: 1
+    path: Assets/Scenes/INSTRUCTION.unity
+    guid: de176f4a5971557488c0cfb57ce27f50
   m_configObjects: {}
